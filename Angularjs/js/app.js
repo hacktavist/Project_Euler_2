@@ -4,10 +4,11 @@ var fibonacci = angular.module('fibonacci', []);
 fibonacci.controller("find_fib", find_fib);
 
 function find_fib($scope) {
-    var next = 1,
-        last = 0,
-        temp = 0;
+
     $scope.find_fib_num = function() {
+        var next = 1,
+            last = 0,
+            temp = 0;
         $scope.max;
         $scope.fib = 0;
         $scope.fib_seq = new Array();
